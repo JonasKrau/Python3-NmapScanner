@@ -30,7 +30,10 @@ pip install python-nmap
 ## Usage
 
 Run the script with Python 3:
+
+```
 sudo python3 Scanner.py
+```
 
 Follow the on-screen prompts to enter the IP address and select the type of scan you wish to perform.
 
