@@ -23,8 +23,9 @@ This Python script provides a simple interface for using Nmap to perform network
 
 Ensure Nmap is installed on your system. Then, install the python-nmap library using pip:
 
-
+```
 pip install python-nmap
+```
 
 ## Usage
 
