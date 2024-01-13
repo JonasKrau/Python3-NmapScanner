@@ -1,12 +1,17 @@
 # Simple Nmap Automation Tool
 
-This Python script provides a simple interface for using Nmap to perform network scans. It allows users to select from different types of scans and to target specific IP addresses.
+This Python script provides a simple interface for using Nmap to perform network scans. It allows users to select from different types of scans and target specific IP addresses.
 
 ## Features
 
-- SYN ACK Scan
-- UDP Scan
-- Comprehensive Scan
+- **SYN ACK Scan:** Fast and stealthy scan for TCP ports.
+- **UDP Scan:** Scans for open UDP ports.
+- **Comprehensive Scan:** A detailed scan that includes service detection, operating system detection, and more.
+
+## Customization
+
+- The script includes a fast scan option (`-F`) by default, which scans fewer ports for quicker results.
+- Users can modify the script to remove the `-F` flag and specify a custom range of ports for a more detailed scan.
 
 ## Requirements
 
@@ -16,7 +21,8 @@ This Python script provides a simple interface for using Nmap to perform network
 
 ## Installation
 
-Ensure you have Nmap installed on your system. Then, install the python-nmap library using pip:
+Ensure Nmap is installed on your system. Then, install the python-nmap library using pip:
+
 
 pip install python-nmap
 
@@ -38,4 +44,8 @@ The author of this fork is not responsible for any misuse or damage caused by th
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+
+
+
 
